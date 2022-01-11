@@ -1,0 +1,96 @@
+{
+  "name": "Testing Model",
+  "method": "eigenvalue",
+  "criteria": ["Environmental", "Social", "Economic"],
+  "subCriteria": {
+    "Environmental": ["Human_Health", "Ecosystem_Quality", "Resources", "Noise_Impact"],
+    "Social": ["Average_Salary", "Hours_of_work", "Health_And_Safety", "Social_Benefits"],
+    "Economic": ["Cash_Flow", "Production_Cost", "Fair_Price", "Latent_Quota"]
+  },
+  "alternatives": ["A", "B", "C"],
+  "preferenceMatrices": {
+    "criteria": [
+      [1, 0.2, 0.333333],
+      [5, 1, 3],
+      [3, 0.333333, 1]
+    ],
+    "subCriteria:Environmental": [
+      [1, 5, 0.333333, 3],
+      [0.2, 1, 0.333333, 0.142857],
+      [3, 3, 1, 5],
+      [0.333333, 7, 0.2, 1]
+    ],
+    "subCriteria:Social": [
+      [1, 3, 5, 7],
+      [0.333333, 1, 3, 5],
+      [0.2, 0.333333, 1, 3],
+      [0.142857, 0.2, 0.333333, 1]
+    ],
+    "subCriteria:Economic": [
+      [1, 0.333333, 3, 5],
+      [3, 1, 5, 7],
+      [0.333333, 0.2, 1, 3],
+      [0.2, 0.142857, 0.333333, 1]
+    ],
+    "alternatives:Human_Health": [
+        [1, 3, 0.2],
+        [0.333333, 1, 0.142857],
+        [5, 7, 1]
+    ],
+    "alternatives:Ecosystem_Quality": [
+        [1, 3, 0.2],
+        [0.333333, 1, 0.142857],
+        [5, 7, 1]
+    ],
+    "alternatives:Resources": [
+        [1, 5, 3],
+        [0.2, 1, 0.333333],
+        [0.333333, 3, 1]
+    ],
+    "alternatives:Noise_Impact": [
+        [1, 0.2, 0.333333],
+        [5, 1, 3],
+        [3, 0.333333, 1]
+    ],
+    "alternatives:Average_Salary": [
+        [1, 5, 3],
+        [0.2, 1, 0.333333],
+        [0.333333, 3, 1]
+    ],
+    "alternatives:Hours_of_work": [
+        [1, 3, 0.333333],
+        [0.333333, 1, 0.2],
+        [3, 5, 1]
+    ],
+    "alternatives:Health_And_Safety": [
+        [1, 3, 0.333333],
+        [0.333333, 1, 0.2],
+        [3, 5, 1]
+    ],
+    "alternatives:Social_Benefits": [
+        [1, 5, 3],
+        [0.2, 1, 0.333333],
+        [0.333333, 3, 1]
+    ],
+    "alternatives:Cash_Flow": [
+        [1, 5, 3],
+        [0.2, 1, 0.333333],
+        [0.333333, 3, 1]
+    ],
+    "alternatives:Production_Cost": [
+        [1, 3, 0.333333],
+        [0.333333, 1, 0.2],
+        [3, 5, 1]
+    ],
+    "alternatives:Fair_Price": [
+        [1, 5, 3],
+        [0.2, 1, 0.333333],
+        [0.333333, 3, 1]
+    ],
+    "alternatives:Latent_Quota": [
+        [1, 5, 0.2],
+        [0.2, 1, 0.142857],
+        [5, 7, 1]
+    ]
+  }
+}

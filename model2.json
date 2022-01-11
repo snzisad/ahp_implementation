@@ -1,0 +1,36 @@
+{
+  "name": "Testing Model",
+  "method": "eigenvalue",
+  "criteria": ["Experience", "Education", "Charisma", "Age"],
+  "subCriteria": {
+  },
+  "alternatives": ["Tom", "Dick", "Harry"],
+  "preferenceMatrices": {
+    "criteria": [
+      [1, 4, 3, 7],
+      [0.25, 1, 0.333333, 3],
+      [0.333333, 3, 1, 5],
+      [0.14286, 0.333333, 0.2, 1]
+    ],
+    "alternatives:Experience": [
+      [1, 0.25, 4],
+      [4, 1, 9],
+      [0.25, 0.111111, 1]
+    ],
+    "alternatives:Education": [
+      [1, 3, 0.2],
+      [0.333333, 1, 0.14286],
+      [5, 7, 1]
+    ],
+    "alternatives:Charisma": [
+        [1, 5, 9],
+        [0.2, 1, 4],
+        [0.111111, 0.25, 1]
+    ],
+    "alternatives:Age": [
+        [1, 0.333333, 5],
+        [3, 1, 9],
+        [0.2, 0.111111, 1]
+    ]
+  }
+}
